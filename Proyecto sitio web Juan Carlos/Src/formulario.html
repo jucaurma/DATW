@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+  <head>     
+    <meta charset="UTF-8">     
+    <meta http-equiv="X-UA-Compatible">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Formulario de Consulta</title>     
+    
+    <style>         
+      /* definimos el estilo de una pseudoclase */
+      ::placeholder
+      {
+        color: rgb(132, 131, 131);
+      }
+      
+      body 
+      {             
+        background-color: rgb(247, 215, 84);             
+        color: rgb(86, 84, 78); 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+      }         
+      
+      form 
+      {             
+        margin: 20px;         
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }         
+      
+      input, textarea 
+      {             
+        width: 100%;             
+        padding: 5px;             
+        margin-bottom: 10px;         
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }  
+
+      button
+      {
+        background-color: rgb(86, 84, 78);
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+      }
+
+      footer 
+      { 
+        width: 100%; 
+        bottom: 0px; 
+        position: absolute; 
+      } 
+      
+    </style>
+  </head> 
+    
+  <body>
+        
+    <header style="background-color: rgb(255, 255, 255); text-align: center;">
+        
+      <a href="Index.html" title="Ir a página de inicio">
+        <img src="../Images/Logo_large.png" 
+        width="25%" height="15%">
+      </a>
+      
+    </header>
+    
+    <section>
+    <h1>Formulario de Consulta</h1>  
+    <p>(* Campo requerido)</p>   
+    
+    
+    <form>         
+      <label for="nombre">Nombre completo:</label>
+      <br>         
+      <input placeholder="Escribe aquí tu nombre" type="text" id="nombre" name="nombre">
+      <br>                  
+            
+      <label for="email">* Correo Electrónico:</label>
+      <br>         
+      <input placeholder="Correo eletrónico" type="email" id="email" name="email" required>
+      <br>                  
+            
+      <label for="mensaje">* Mensaje (máximo 500 caracteres):</label>
+      <br>         
+      <textarea placeholder="Escribe aquí tu consulta" id="mensaje" name="mensaje" maxlength="500" rows="5"></textarea>
+      <br>                  
+      <button type="submit">Enviar</button>     
+    </form> 
+    </section>
+  
+  <footer style="background-color: rgb(160, 156, 145); text-align: center;">
+          
+      <!-- Para que las imágenes queden centradas y ajustadas en ancho y altura aproximada las ponemos en una tabla de una fila y dos columnas -->
+      <table align="center">   
+        <tr>
+        <td>
+        <a href="mailto:info@inshape.com?subjetc=Solicitud de información">
+        <img style="opacity: 30%; align-items: center;width: 40px; height:40px;" src="../Images/iconomail.png">
+        </td>
+        <td>
+        <!-- En este caso el valor de target es parent para que sea la página entera y no el frame el que lleve a la página de destino -->
+          <a href="http://instagram.com" title="Ir a perfil de Instagram" target="_parent">
+        <img style="opacity: 30%; align-items: center;width: 40px; height:40px;" src="../Images/iconoinstagram.png">
+        </a>
+        </td>
+        </tr>
+      </table>
+    
+  
+  </footer>
+  
+  </body> 
+
+</html> 
+

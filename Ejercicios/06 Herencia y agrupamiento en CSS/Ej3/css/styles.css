@@ -1,0 +1,7 @@
+/* establece el estilo a h1 y h2 en una sola declaración */
+h1, h2
+{
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: blue;
+}
