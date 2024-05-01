@@ -1,21 +1,20 @@
-function invertirCadena (cadena) {
-  let longitudCadena = cadena.length;
-  let nueva_cadena = "";
-  for (var caracter of cadena){
-    nueva_cadena.push(caracter);
+// Escribe una función que tome una cadena de texto como
+// entrada y devuelva la misma cadena pero en orden inverso.
+
+function invertirCadena(cadena) {
+  let nueva_cadena = ""; // Inicializamos una cadena vacía para almacenar la cadena invertida
+  for (var caracter of cadena) { // Iteramos sobre cada carácter en la cadena de entrada
+    nueva_cadena = caracter + nueva_cadena; // Agregamos el carácter actual al inicio de la nueva cadena
   }
-  return nueva_cadena;
+  return nueva_cadena; // Devolvemos la cadena invertida
 }
 
-micadena= "Hola";
+micadena = "Hola mundo";
+micadena2 = "dabale arroz a la zorra el abad";
+micadena3 = "sara baras";
+micadena4 = "Esto no es un palíndromo";
 console.log("La cadena invertida es: " + invertirCadena(micadena));
+console.log("La cadena invertida es: " + invertirCadena(micadena2));
+console.log("La cadena invertida es: " + invertirCadena(micadena3));
+console.log("La cadena invertida es: " + invertirCadena(micadena4));
 
-// function invertirCadena(cadena) {
-//   // Dividir la cadena en un array de caracteres, invertir el orden y unir nuevamente en una cadena
-//   return cadena.split('').reverse().join('');
-// }
-
-// // Ejemplo de uso
-// var textoOriginal = "Dábale arroz a la zorra el abad";
-// var textoInvertido = invertirCadena(textoOriginal);
-// console.log(textoInvertido); // Output: "odnuM aloH"
