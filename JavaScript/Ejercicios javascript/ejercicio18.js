@@ -15,9 +15,9 @@ function palabras_duplicadas(cadena){
   return cadena_sin_duplicados
 }
 
-var micadena = "hola cómo estas hola hola hola";
-var micadena2 = "hola hola hola hola hola y ya";
-var micadena3 = "Esto es un ejemplo de eliminación de palabras duplicadas. Lo es. Lo es. Lo es"
-console.log(palabras_duplicadas(micadena));
-console.log(palabras_duplicadas(micadena2));
-console.log(palabras_duplicadas(micadena3));
+var micadena = "hola cómo estas hola hola hola"; 
+var micadena2 = "hola hola hola hola hola y ya"; 
+var micadena3 = "Esto es un ejemplo de eliminación de palabras duplicadas. Lo es. Lo es. Lo es" 
+console.log(palabras_duplicadas(micadena)); 
+console.log(palabras_duplicadas(micadena2)); 
+console.log(palabras_duplicadas(micadena3)); 
