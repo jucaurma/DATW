@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<!-- Establecemos las metas para aportar información al navegador -->
+<head>
+
+  <!-- Establecemos la meta de caracteres para que se pueda visualizar 
+  correctamente en el navegador -->
+  <meta charset="UTF-8">
+
+  <!-- meta para optimizar la visualización y la experiencia del usuario en dispositivos móviles al asegurar que el contenido se ajuste correctamente al ancho de la pantalla y se presente con una escala inicial adecuada. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- meta para especificar el autor del código -->
+  <meta name="author" content="Juan Carlos Urbaneja Madera">
+  
+  <!-- Título que aparecerá en la pestaña del navegador -->
+  <title>Horario de Clase</title>
+
+  <!-- Enlace a la hoja de estilos que marcará los estilos del documento y en concreto de la tabla. Como la hoja de estilo está en el mismo directotrio establecemos la ruta relativa -->
+  <link rel="stylesheet" href="estilos.css">
+
+<!-- Cerramos el head -->
+</head>
+
+<body>
+
+  <!-- Ponemos el encabezado del documento -->
+  <h1>Horario de Clases</h1>
+
+  <!-- Iniciamos la declaración de la tabla -->
+  <table>
+
+    <!-- Especificamos con la siguiente etiqueta que estamos presentando una fila de cabecera -->
+    <thead>
+
+      <!-- Configuramos la primera fila -->
+      <tr>
+        <!-- Cada celda de cabecera corresponde a un día de la semana lectiva excepto la primera celda que en lugar de dejarla en blanco se ha especificado que esa columna corresponde a las franjas horarias -->
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      
+      <!-- Cerramos la primera fila -->
+      </tr>
+    
+    <!-- Cerramos la etiqueta que especifica que se trata de una fila de cabecera  -->
+    </thead>
+
+    <!-- Establecemos la segunda fila que corresponde a la primera hora de clase de 9 a 10 y la asignatura correspondiente a esa hora en cada día de la semana. Hay que tener en cuenta que aunque no lo pida el enunciado hemos establecido la primera celda, que corresponde a la hora, como celda de cabecera de forma que siga el formato que hemos establecido para la fila de cabecera-->
+    
+    <tr>
+    
+      <th>9:00 - 10:00</th>
+      <td>Programación</td>
+      <td>HTML</td>
+      <td>Java</td>
+      <td>Python</td>
+      <td>Bases de datos</td>
+    
+    <!-- Cerramos la segunda fila -->
+    </tr>
+
+    <!-- Escribimos la información correspondiente al resto de filas de manera similar a como lo hemos hecho con la anterior, teniendo en cuenta las celdas correspondiente a la franja horaria que son de cabecera -->
+    <tr>
+      <th>10:00 - 11:00</th>
+      <td>HTML</td>
+      <td>Java</td>
+      <td>Python</td>
+      <td>Bases de datos</td>
+      <td>Programación</td>
+    <!-- Cerramos la tercera fila -->
+    </tr>
+
+    <!-- Iniciamos la cuarta fila -->
+    <tr>
+      <th>11:00 - 12:00</th>
+      <td>Java</td>
+      <td>Python</td>
+      <td>Bases de datos</td>
+      <td>Programación</td>
+      <td>HTML</td>
+    <!-- Cerramos la cuarta fila -->
+    </tr>
+  <!-- Cerramos la tabla -->
+  </table>
+<!-- Cerramos cuerpo -->
+</body>
+<!-- Cerramos documento html -->
+</html>

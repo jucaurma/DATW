@@ -1,0 +1,22 @@
+/* Esta es la hoja de estilos asociada al documento html "Horarios de clase". En este caso se han aplicado selectores de etiqueta */
+/* declararmos el estilo general para la tabla y el borde general */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #333;
+}
+
+/* declaramos el estilo de la fila de cabecera con un borde algo inferior al general y un color de fondo diferente al resto de las celdas */
+th {
+    width: 17%;
+    background-color: #f2f2f2;
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+/* declaramos el estilo del resto de las celdas de la tabla con un grosor inferior a las de cabecera y un color más claro */
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}

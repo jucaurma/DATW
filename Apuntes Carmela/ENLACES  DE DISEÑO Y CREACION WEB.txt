@@ -1,0 +1,41 @@
+\\// DISEÑO WEB //\\
+
+HTML Y CSS
+
+https://www.figma.com/
+https://color.adobe.com/es/create/color-wheel
+https://www.recraft.ai/
+https://w3.unpocodetodo.info/index.php
+https://cssbattle.dev/
+https://code.visualstudio.com/docs/editor/emmet
+https://docs.emmet.io/cheat-sheet/
+https://vscodethemes.com/
+https://flexboxfroggy.com/
+https://flukeout.github.io/
+
+
+
+// JS// NPM // NODEJS // ANGULAR //
+
+https://javascript.info/
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/
+https://nodejs.org/en
+
+
+
+// PHP // QWIK // KAGGLE// DOCKER//
+
+https://qwik.dev/docs/
+https://www.php.net/manual/en/index.php
+https://www.php.net/manual/en/book.pdo.php
+https://www.kaggle.com/
+https://www.docker.com/
+
+
+SERVIDORES Y ALMACENAMIENTO EN LA NUBE
+
+https://es.000webhost.com/
+https://www.awsacademy.com/vforcesite/LMS_Login
+
+
+

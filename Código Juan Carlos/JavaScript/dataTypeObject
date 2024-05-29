@@ -1,0 +1,16 @@
+// Crear un objeto representando una persona
+let persona = {
+nombre: "Juan",
+edad: 30,
+ciudad: "Madrid",
+saludar: function() {
+console.log("¡Hola! Mi nombre es " + this.nombre + ", tengo " + this.edad + " años y vivo en " +
+this.ciudad + ".");
+}
+};
+// Acceder a las propiedades del objeto
+console.log("Nombre:", persona.nombre); // Imprimirá: Nombre: Juan
+console.log("Edad:", persona.edad); // Imprimirá: Edad: 30
+console.log("Ciudad:", persona.ciudad); // Imprimirá: Ciudad: Madrid
+// Llamar al método del objeto
+persona.saludar(); // Imprimirá: ¡Hola! Mi nombre es Juan, tengo 30 años y vivo en Madrid.

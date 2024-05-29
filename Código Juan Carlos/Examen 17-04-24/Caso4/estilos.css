@@ -1,0 +1,64 @@
+/* Esta es la hoja de estilos asociada al documento html "REgistro de usuario". En este caso se han aplicado selectores de etiqueta y tipo */
+
+/* Definimos la base de estilo para el documento general y establecemos la imagen de fondo del documento mediante una imagen que simula el papel. También establecemos cómo se debe presentar esa imagen en el navegador*/
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(image/fondo.jpeg) ;
+  background-size: cover ;
+  background-position: center ;
+  background-color: #f9f9f9;
+}
+
+/* Damos formato al contenedor del formulario */
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Damos formato a las etiquetas del formulario en general */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Damos formato a los diferentes tipos de entrada del formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Ubicamos la casilla de verificación */
+input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+/* Damos formato al botón de envío del formuloario */
+button {
+  background-color: #036bda;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Damos formato al botón de envío cuando se coloca el cursor sobre él */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Damos formato mediante una pseudoclase al texto que aparecerá en el interior de las casillas del formulario */
+::placeholder {
+  color: rgb(184, 184, 164);
+} 
